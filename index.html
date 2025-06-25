@@ -25,7 +25,117 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 <body>
-    <header></header>
+    <header>
+
+      <nav class="navbar navbar-expand-lg bg-custom shadow py-3 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="nav-logo"
+              src="./images/images/logo-mercado-liebre.svg"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registroModal"><i class="far fa-id-card me-2"></i
+                  ><span> Creá tu cuenta</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                  <i class="fas fa-sign-in-alt me-2"></i
+                  ><span>Ingresá</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-shopping-basket me-2"></i
+                  ><span>Mis compras</span></a
+                >
+              </li>
+            </ul>
+            <div class="barra-busqueda ms-auto">
+              <div class="input-con-icono">
+                <input type="text" placeholder="Buscar productos, marcas..." />
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/images/D_NQ_630123-MLA86276689967_062025-OO.webp"
+              class="d-block w-100"
+              alt="banner1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/D_NQ_743265-MLA86102144515_062025-OO.webp"
+              class="d-block w-100"
+              alt="banner2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/D_NQ_767480-MLA86280604571_062025-OO.webp"
+              class="d-block w-100"
+              alt="banner3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/D_NQ_803967-MLA86466180635_062025-OO.webp"
+              class="d-block w-100"
+              alt="banner4"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/D_NQ_944395-MLA83017655050_032025-OO.webp"
+              class="d-block w-100"
+              alt="banner5"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </header>
     <main></main>
     <footer></footer>
 
