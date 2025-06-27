@@ -24,6 +24,24 @@
   --description: 1rem;
    }
 
+   body {
+    font-family: var(--roboto);
+}    
+
+.imagen-footer {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-cartas {
+    font-size: 12px;
+}
+
+.texto-titulo {
+    font-size: 24px;
+}
+
+
 <<<<<<< feature/navbar
 body{
     font-family: var(--roboto);
